@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #0d0d11;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'segoe ui', sans-serif;
 }
 
 /*Unsure if needed, but made look like photo*/
@@ -18,7 +18,7 @@ h1 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -45,7 +45,8 @@ h1 {
   color: white;
   margin: 0 0 5px;
   text-align: left;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Resort */
@@ -55,7 +56,7 @@ h1 {
   margin: 0 0 5px;
   text-align: left;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Rating */
@@ -63,7 +64,7 @@ h1 {
   color: green;
   margin: 0 0 8px;
   text-align: left;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Rating */
@@ -71,7 +72,7 @@ h1 {
   color: red;
   margin: 0 0 8px;
   text-align: left;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Money/night */
@@ -79,7 +80,7 @@ h1 {
   color: gray;
   margin: 0;
   text-align: left;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 

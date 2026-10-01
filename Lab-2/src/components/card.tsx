@@ -15,7 +15,7 @@ function Card({ listing }: CardProps) {
         <p className="resort">{listing.location}</p>
 
         <p className={listing.rating > 4.0 ? "rating-green" : "rating-red"}>
-          ★ {listing.rating}
+          {listing.rating}★
         </p>
 
         <p className="price">${listing.price}/night</p>
