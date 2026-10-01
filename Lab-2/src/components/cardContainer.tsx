@@ -1,5 +1,5 @@
 import listings from "../data/data";
-import Card from "./card";
+import Card from "./Card";
 
 function CardContainer() {
   return (
